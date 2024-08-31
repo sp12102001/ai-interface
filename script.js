@@ -9,6 +9,10 @@ $(document).ready(function() {
 
     addMessage("Hi, I'm an AI chatbot. How can I help you today?");
 
+    $('#get-api-key-btn').on('click', function() {
+        window.open('https://platform.openai.com/account/api-keys', '_blank');
+    });
+
     $('#submit-btn').click(function() {
         const prompt = $('#prompt').val().trim();
         if (prompt === '') return;
