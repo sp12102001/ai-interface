@@ -87,7 +87,7 @@ body {
     border-color: #4CAF50;
     box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
 }
-#submit-btn {
+#submit-btn, #get-api-key-btn {
     padding: 12px 25px;
     background: linear-gradient(90deg, #4CAF50 0%, #45a049 100%);
     color: white;
@@ -99,8 +99,9 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-bottom: 10px;
 }
-#submit-btn:hover {
+#submit-btn:hover, #get-api-key-btn:hover {
     background: linear-gradient(90deg, #45a049 0%, #4CAF50 100%);
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
