@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-header">
+            <h1>AI Chatbot</h1>
+        </div>
+        <div class="chat-history" id="chat-history"></div>
+        <div class="chat-input">
+            <input type="password" id="api-key-input" placeholder="Enter your OpenAI API key" aria-label="Enter your OpenAI API key">
+            <input type="text" id="prompt" placeholder="Type your message here..." aria-label="Type your message here">
+            <button id="submit-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
